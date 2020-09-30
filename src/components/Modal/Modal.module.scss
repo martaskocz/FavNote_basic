@@ -1,0 +1,23 @@
+.wrapper {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50vw;
+  height: 70vh;
+  position: fixed;
+  background-color: white;
+  box-shadow: 0 10px 40px -15px rgba(#818181, .5);
+  padding: 40px 80px;
+}
+
+.button {
+  width: 10vh;
+  float: right;
+  border: none;
+  background: none;
+  margin-right: -40px;
+
+  img {
+    height: 30px;
+  }
+}

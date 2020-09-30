@@ -1,0 +1,29 @@
+.radio_wrapper {
+  width: 33%;
+  display: inline-block;
+
+  input {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .fakeRadio {
+    display: inline-flex;
+    border-radius: 50%;
+    border: 2px solid #1E58FF;
+    height: 15px;
+    width: 15px;
+  }
+
+  input:checked + .fakeRadio {
+    background-color: #1E58FF;
+    box-shadow: inset 0 0 0 2px white;
+  }
+
+  label {
+    margin: 0 0 0 10px;
+    font-weight: 700;
+    font-size: 14px;
+  }
+}
+
